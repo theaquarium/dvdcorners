@@ -172,6 +172,10 @@ window.addEventListener('load', () => {
 			}
 		}
 	});
+
+	document.querySelector('.HideButton').addEventListener('click', () => {
+		document.querySelector('.Footer').style.display = 'none';
+	});
 });
 
 const randomColor = () => {

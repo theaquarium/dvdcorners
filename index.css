@@ -43,3 +43,9 @@ a {
 em {
 	font-style: italic;
 }
+
+.HideButton {
+	text-decoration: underline;
+	color: #aaaaaa;
+	cursor: pointer;
+}
